@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #3a68b7;
+}
+
+html {
+    background-color: var(--main-color);
+    font-size: 62.5%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+  width: 90%;
+  min-width: 480px;
+  max-width: 650px;
+  padding: 2rem;
+
+  background-color: white;
+  color: var(--main-color);
+
+  box-shadow: -5px 0 0 rgba(0, 0, 0, 0.23);
+}
+
+legend {
+    font-size: 3rem;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+label {
+  text-align: left;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid var(--main-color);
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 4rem;
+}
+
+::placeholder {
+    padding: 3rem;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn {
+    padding: 1rem;
+    background-color: var(--main-color);
+    border: 1px solid rgba(0, 0, 0, 0.327);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+    margin-top: 1rem;
+ }
+
+ .account {
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    padding: .7rem;
+
+    margin-top: 1rem;
+ }
+
+ .account:hover {
+    outline: 1px solid black;
+   background-color: #365589;
+   color: white;
+ }
